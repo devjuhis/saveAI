@@ -73,6 +73,6 @@ def process_video(input_video_path, output_video_path):
     cv2.destroyAllWindows()
 
 # Esimerkki käytöstä
-input_video = 'kespoou18.mp4'
-output_video = './output/boxed_video.mp4'
+input_video = '26.12.2024_20.26.55_REC.mp4'
+output_video = './output/boxed_saveai_video.mp4'
 process_video(input_video, output_video)

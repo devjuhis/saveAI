@@ -34,7 +34,7 @@ def process_video(input_video_path, output_video_path):
     last_written_frame = -1  # Muuttuja, joka seuraa viimeksi kirjoitetun kehyksen
 
     # Kohdeluokat (RVH, save, set)
-    target_classes = [4, 5, 6] 
+    target_classes = [3, 4, 5] 
 
     # Aloita ajan mittaus
     start_time = time.time()
@@ -148,5 +148,5 @@ def process_video(input_video_path, output_video_path):
 
 # Esimerkki funktion käytöstä
 input_video = '26.12.2024_20.26.55_REC.mp4'
-output_video = './output/uusin.mp4'
+output_video = './output/clipped_saveAI_video.mp4'
 process_video(input_video, output_video)
